@@ -40,7 +40,8 @@ CAN통신이 오랫동안 ECU를 연결하는 직렬 버스 네트워크 통신�
 Jetson AGX Xavier에서 CAN 인터페이스를 설정하기 위한 .sh
 ## Hardware Setting
 필요장비 : Jetson AGX Xavier, CAN Transceiver(SH65HVD230), Monitor, Keyboard
-![Xavier_Connection](./img/jetson_xavier_hardware_connection.jpg)
+
+<img src="/img/jetson_xavier_harware_connection.png" width="300" height="300">
 
 ## Software Setting
 1. Terminal 1에서 enable_can.sh 파일 실행
@@ -65,10 +66,11 @@ Jetson AGX Xavier에서 CAN 인터페이스를 설정하기 위한 .sh
    $ dmesg -w
    ```
 ## Problems when testing CAN
-![CAN_ERROR](./img/cansend_error_final.jpg)
+
+<img src="/img/cansend_error_final.png" width="300" height="300">
 CAN통신 테스트를 진행했을 때, cansend can0을 통해 데이터를 송신했지만,
 candump 명령어 아래에서 수신된 데이터가 출력되지 않는 문제가 발생함.
 
-![CAN_ERROR_ECUSIM](./img/cansend_error_ecusim-2000.jpg)
+<img src="/img/cansend_error_ecusim-2000.png" width="300" height="300">
 CAN통신 테스트를 Jetson AGX Xavier에서만 진행해서 발생한 문제인 것인가 확인하기 위해
 ECU Simulator인 ECUSim-2000과 연결하여 CAN통신 테스트를 진행했지만 문제는 바뀌지 않았음.
