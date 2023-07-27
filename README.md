@@ -41,7 +41,7 @@ Jetson AGX Xavier에서 CAN 인터페이스를 설정하기 위한 .sh
 ## Hardware Setting
 필요장비 : Jetson AGX Xavier, CAN Transceiver(SH65HVD230), Monitor, Keyboard
 
-<img src="/img/jetson_xavier_harware_connection.png" width="300" height="300">
+<img src="/img/jetson_xavier_hardware_connection.png" width="300" height="300">
 
 ## Software Setting
 1. Terminal 1에서 enable_can.sh 파일 실행
