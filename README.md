@@ -38,5 +38,7 @@ CAN통신이 오랫동안 ECU를 연결하는 직렬 버스 네트워크 통신�
 #### enable_can.sh
 Jetson AGX Xavier에서 CAN 인터페이스를 설정하기 위한 .sh
 ## Hardware Setting
+필요장비 : Jetson AGX Xavier, CAN Transceiver(SH65HVD230), Monitor, Keyboard
+
 
 ## Software Setting
