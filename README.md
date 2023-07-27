@@ -31,3 +31,5 @@ CAN통신이 오랫동안 ECU를 연결하는 직렬 버스 네트워크 통신�
 * CRC Field의 증가로 데이터 보안 증가, 기존 CAN하드웨어 사용 가능
 
 ## 코드 설명
+#### enable_can.sh
+Jetson AGX Xavier에서 CAN 인터페이스를 설정하기 위한 .sh
