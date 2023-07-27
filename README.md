@@ -42,3 +42,25 @@ Jetson AGX Xavier에서 CAN 인터페이스를 설정하기 위한 .sh
 ![Xavier_Connection](./img/jetson_xavier_hardware_connection.jpg)
 
 ## Software Setting
+1. Terminal 1에서 enable_can.sh 파일 실행
+   ```
+   $ sh enable_can.sh
+   ```
+2. Terminal 2에서 CAN 데이터 송신할 준비
+   ```
+   $ candump -x any
+   ```
+   *만약 하나의 can만 데이터 수신을 하고 싶다면,
+   ```
+   $ candump can0
+   ```
+   이와 같이 사용하면 됨.
+3. Terminal 3에서 CAN 데이터 송신 테스트
+   ```
+   $ cansend can0 123#abcdabcd
+   ```
+   (참고. 에러 문구를 실시간으로 확인하고 싶다면,
+   	```
+    	$ dmesg -w
+    	```
+    위 명령어를 통해 확인 가능)
