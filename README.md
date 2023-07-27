@@ -6,6 +6,7 @@
 * [코드 설명](#코드-설명)
 * [Hardware](#Hardware-Setting)
 * [Software](#Software-Setting)
+* [Problem](#Problems-when-testing-CAN)
 
 ## CAN통신
 * 과거 자동차의 통신 방식 : 기계식
@@ -59,8 +60,8 @@ Jetson AGX Xavier에서 CAN 인터페이스를 설정하기 위한 .sh
    ```
    $ cansend can0 123#abcdabcd
    ```
-   (참고. 에러 문구를 실시간으로 확인하고 싶다면,
-   	```
-    	$ dmesg -w
-    	```
-    위 명령어를 통해 확인 가능)
+   (참고. 에러 문구를 실시간으로 확인하고 싶다면, 아래의 명령어를 통해 확인 가능)
+   ```
+   $ dmesg -w
+   ```
+## Problems when testing CAN
