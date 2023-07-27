@@ -1,9 +1,11 @@
 # CAN
 
 ## 목차
-* [1. CAN통신 개념](#CAN통신)
-* [2. CANFD통신 개념](#CANFD통신)
-* [3. 코드 설명](#코드-설명)
+* [CAN통신 개념](#CAN통신)
+* [CANFD통신 개념](#CANFD통신)
+* [코드 설명](#코드-설명)
+* [Hardware](#Hardware-Setting)
+* [Software](#Software-Setting)
 
 ## CAN통신
 * 과거 자동차의 통신 방식 : 기계식
@@ -35,3 +37,6 @@ CAN통신이 오랫동안 ECU를 연결하는 직렬 버스 네트워크 통신�
 ## 코드 설명
 #### enable_can.sh
 Jetson AGX Xavier에서 CAN 인터페이스를 설정하기 위한 .sh
+## Hardware Setting
+
+## Software Setting
